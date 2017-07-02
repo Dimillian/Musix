@@ -9,10 +9,6 @@
 import Foundation
 import ReSwift
 
-struct ChartsState: StateType, Equatable {
+struct ChartsState: StateType {
     var chartResults: Chart?
-}
-
-func == (lhs: ChartsState, rhs: ChartsState) -> Bool {
-    return true
 }

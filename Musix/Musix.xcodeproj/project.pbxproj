@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9F1D05C21F092A6E007AA01C /* conf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D05C11F092A6E007AA01C /* conf.plist */; };
+		9F1D05C41F0937B7007AA01C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D05C31F0937B7007AA01C /* Item.swift */; };
+		9F1D05C61F093C8D007AA01C /* ClearCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D05C51F093C8D007AA01C /* ClearCollectionView.swift */; };
+		9F1D05CA1F093DBF007AA01C /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D05C81F093DBF007AA01C /* AlbumCollectionViewCell.swift */; };
+		9F1D05CB1F093DBF007AA01C /* AlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D05C91F093DBF007AA01C /* AlbumCollectionViewCell.xib */; };
 		9F6166BC1F092214008C57CC /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6166BB1F092214008C57CC /* Charts.swift */; };
 		9F6166C11F0923CE008C57CC /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6166C01F092291008C57CC /* Chart.swift */; };
 		9F6166C31F09249C008C57CC /* ChartsReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6166C21F09249C008C57CC /* ChartsReducer.swift */; };
@@ -54,6 +58,10 @@
 /* Begin PBXFileReference section */
 		4D028354AAA1DCA876DA8AC5 /* Pods_Musix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Musix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1D05C11F092A6E007AA01C /* conf.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = conf.plist; path = Musix/conf.plist; sourceTree = SOURCE_ROOT; };
+		9F1D05C31F0937B7007AA01C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9F1D05C51F093C8D007AA01C /* ClearCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearCollectionView.swift; sourceTree = "<group>"; };
+		9F1D05C81F093DBF007AA01C /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlbumCollectionViewCell.swift; path = cells/AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F1D05C91F093DBF007AA01C /* AlbumCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AlbumCollectionViewCell.xib; path = cells/AlbumCollectionViewCell.xib; sourceTree = "<group>"; };
 		9F6166BB1F092214008C57CC /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
 		9F6166C01F092291008C57CC /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
 		9F6166C21F09249C008C57CC /* ChartsReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsReducer.swift; sourceTree = "<group>"; };
@@ -106,6 +114,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9F1D05C71F093DA2007AA01C /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D05C81F093DBF007AA01C /* AlbumCollectionViewCell.swift */,
+				9F1D05C91F093DBF007AA01C /* AlbumCollectionViewCell.xib */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
 		9F6166BA1F092182008C57CC /* requests */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				9F6166C01F092291008C57CC /* Chart.swift */,
+				9F1D05C31F0937B7007AA01C /* Item.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -150,6 +168,7 @@
 				9F6F91721F08FA1B00F27DC9 /* controllers */,
 				9F6166BD1F092264008C57CC /* models */,
 				9F6F914A1F08F92100F27DC9 /* flux */,
+				9F1D05C71F093DA2007AA01C /* cells */,
 				9F6F91701F08F9FD00F27DC9 /* storyboards */,
 				9F6E3D181F069B820069E11F /* Assets.xcassets */,
 				9F6E3D1D1F069B820069E11F /* Info.plist */,
@@ -204,6 +223,7 @@
 			children = (
 				9F6F91651F08F9DC00F27DC9 /* UI.h */,
 				9F6F91661F08F9DC00F27DC9 /* Info.plist */,
+				9F1D05C51F093C8D007AA01C /* ClearCollectionView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -319,6 +339,7 @@
 					};
 					9F6F91621F08F9DC00F27DC9 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 				};
 			};
@@ -346,6 +367,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1D05CB1F093DBF007AA01C /* AlbumCollectionViewCell.xib in Resources */,
 				9F6E3D191F069B820069E11F /* Assets.xcassets in Resources */,
 				9F1D05C21F092A6E007AA01C /* conf.plist in Resources */,
 				9F6E3D1C1F069B820069E11F /* Main.storyboard in Resources */,
@@ -415,9 +437,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6166BC1F092214008C57CC /* Charts.swift in Sources */,
+				9F1D05CA1F093DBF007AA01C /* AlbumCollectionViewCell.swift in Sources */,
 				9F6166C11F0923CE008C57CC /* Chart.swift in Sources */,
 				9F6F914F1F08F94C00F27DC9 /* MainController.swift in Sources */,
 				9F6166C51F0924EA008C57CC /* ChartsRequests.swift in Sources */,
+				9F1D05C41F0937B7007AA01C /* Item.swift in Sources */,
 				9F6166C81F09259A008C57CC /* ViewController.swift in Sources */,
 				9F6166C71F092507008C57CC /* ChartsActions.swift in Sources */,
 				9F6E3D151F069B820069E11F /* AppDelegate.swift in Sources */,
@@ -432,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1D05C61F093C8D007AA01C /* ClearCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +588,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0AC8354442DA9541175B6D4 /* Pods-Musix.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -581,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3793D8BD82A4298A98A52B6 /* Pods-Musix.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +625,7 @@
 		9F6F916D1F08F9DC00F27DC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -613,6 +641,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.UI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -622,6 +651,7 @@
 		9F6F916E1F08F9DC00F27DC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;

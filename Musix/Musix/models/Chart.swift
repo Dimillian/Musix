@@ -9,9 +9,10 @@
 import Foundation
 
 class Chart: Codable {
-    var results: Charts!
+    var results: [String: [Charts]]!
 }
 
 class Charts: Codable {
-    var albums: [[String: String]]!
+    var chart: String!
+    var data: [Item]!
 }

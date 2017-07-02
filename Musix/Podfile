@@ -6,4 +6,5 @@ inhibit_all_warnings!
 target 'Musix' do
     pod 'Alamofire'
     pod 'ReSwift'
+    pod 'SDWebImage'
 end

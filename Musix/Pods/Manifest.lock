@@ -1,15 +1,20 @@
 PODS:
   - Alamofire (4.5.0)
   - ReSwift (4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - ReSwift
+  - SDWebImage
 
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   ReSwift: f058ef13b46ae5f463f10605ccbbb7fb04424d8d
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 13dada0bbdd4851472addc13cf94993dbe48c9bb
+PODFILE CHECKSUM: 01a03847cf0138b31259096888439c1f9e078002
 
 COCOAPODS: 1.3.0.beta.1

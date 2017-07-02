@@ -12,7 +12,7 @@ import ReSwift
 struct GetCharts: Action {
     init() {
         GETRequest(path: "catalog/us/charts",
-                   params: ["types": "albums" as AnyObject]).start { (response: APIResponse<Chart>) in
+                   params: ["types": "albums,songs" as AnyObject]).start { (response: APIResponse<Chart>) in
             store.dispatch(SetCharts(chart: response.object))
         }
     }
