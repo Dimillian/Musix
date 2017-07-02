@@ -1,0 +1,6 @@
+framework module Pods_Musix {
+  umbrella header "Pods-Musix-umbrella.h"
+
+  export *
+  module * { export * }
+}
