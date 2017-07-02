@@ -9,6 +9,6 @@
 import ReSwift
 
 func AppReducer(action: Action, state: AppState?) -> AppState {
-    return AppState()
+    return AppState(chartsState: chartsReducer(state: state?.chartsState, action: action))
 }
 

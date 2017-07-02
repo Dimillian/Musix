@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1D05C21F092A6E007AA01C /* conf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D05C11F092A6E007AA01C /* conf.plist */; };
+		9F6166BC1F092214008C57CC /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6166BB1F092214008C57CC /* Charts.swift */; };
+		9F6166C11F0923CE008C57CC /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6166C01F092291008C57CC /* Chart.swift */; };
+		9F6166C31F09249C008C57CC /* ChartsReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6166C21F09249C008C57CC /* ChartsReducer.swift */; };
+		9F6166C51F0924EA008C57CC /* ChartsRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6166C41F0924EA008C57CC /* ChartsRequests.swift */; };
+		9F6166C71F092507008C57CC /* ChartsActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6166C61F092507008C57CC /* ChartsActions.swift */; };
+		9F6166C81F09259A008C57CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F91781F08FAE800F27DC9 /* ViewController.swift */; };
 		9F6E3D151F069B820069E11F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E3D141F069B820069E11F /* AppDelegate.swift */; };
 		9F6E3D191F069B820069E11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E3D181F069B820069E11F /* Assets.xcassets */; };
 		9F6E3D1C1F069B820069E11F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E3D1A1F069B820069E11F /* Main.storyboard */; };
@@ -16,6 +23,7 @@
 		9F6F916B1F08F9DC00F27DC9 /* UI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6F91631F08F9DC00F27DC9 /* UI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F6F917A1F08FB1A00F27DC9 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F91791F08FB1A00F27DC9 /* State.swift */; };
 		9F6F917C1F08FC8600F27DC9 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F917B1F08FC8600F27DC9 /* AppReducer.swift */; };
+		9F6F91811F0903D700F27DC9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F91801F0903D700F27DC9 /* API.swift */; };
 		E8510A90706F02A81D50819F /* Pods_Musix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D028354AAA1DCA876DA8AC5 /* Pods_Musix.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +53,12 @@
 
 /* Begin PBXFileReference section */
 		4D028354AAA1DCA876DA8AC5 /* Pods_Musix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Musix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1D05C11F092A6E007AA01C /* conf.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = conf.plist; path = Musix/conf.plist; sourceTree = SOURCE_ROOT; };
+		9F6166BB1F092214008C57CC /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
+		9F6166C01F092291008C57CC /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		9F6166C21F09249C008C57CC /* ChartsReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsReducer.swift; sourceTree = "<group>"; };
+		9F6166C41F0924EA008C57CC /* ChartsRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsRequests.swift; sourceTree = "<group>"; };
+		9F6166C61F092507008C57CC /* ChartsActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsActions.swift; sourceTree = "<group>"; };
 		9F6E3D111F069B820069E11F /* Musix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6E3D141F069B820069E11F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F6E3D181F069B820069E11F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +72,7 @@
 		9F6F91781F08FAE800F27DC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F6F91791F08FB1A00F27DC9 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		9F6F917B1F08FC8600F27DC9 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		9F6F91801F0903D700F27DC9 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = network/API.swift; sourceTree = "<group>"; };
 		E0AC8354442DA9541175B6D4 /* Pods-Musix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Musix/Pods-Musix.debug.xcconfig"; sourceTree = "<group>"; };
 		F3793D8BD82A4298A98A52B6 /* Pods-Musix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Musix/Pods-Musix.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +106,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9F6166BA1F092182008C57CC /* requests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6166C41F0924EA008C57CC /* ChartsRequests.swift */,
+			);
+			path = requests;
+			sourceTree = "<group>";
+		};
+		9F6166BD1F092264008C57CC /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9F6166C01F092291008C57CC /* Chart.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		9F6E3D081F069B820069E11F = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +145,15 @@
 		9F6E3D131F069B820069E11F /* Musix */ = {
 			isa = PBXGroup;
 			children = (
+				9F6F917F1F0903C300F27DC9 /* network */,
 				9F6F91711F08FA1400F27DC9 /* main */,
 				9F6F91721F08FA1B00F27DC9 /* controllers */,
+				9F6166BD1F092264008C57CC /* models */,
 				9F6F914A1F08F92100F27DC9 /* flux */,
 				9F6F91701F08F9FD00F27DC9 /* storyboards */,
 				9F6E3D181F069B820069E11F /* Assets.xcassets */,
 				9F6E3D1D1F069B820069E11F /* Info.plist */,
+				9F1D05C11F092A6E007AA01C /* conf.plist */,
 				9F6E3D1E1F069B820069E11F /* Musix.entitlements */,
 			);
 			path = Musix;
@@ -130,6 +164,7 @@
 			children = (
 				9F6F914C1F08F92A00F27DC9 /* states */,
 				9F6F914B1F08F92600F27DC9 /* actions */,
+				9F6166BA1F092182008C57CC /* requests */,
 				9F6F914D1F08F92D00F27DC9 /* reducers */,
 			);
 			name = flux;
@@ -138,6 +173,7 @@
 		9F6F914B1F08F92600F27DC9 /* actions */ = {
 			isa = PBXGroup;
 			children = (
+				9F6166C61F092507008C57CC /* ChartsActions.swift */,
 			);
 			name = actions;
 			path = flux/actions;
@@ -147,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				9F6F91791F08FB1A00F27DC9 /* State.swift */,
+				9F6166BB1F092214008C57CC /* Charts.swift */,
 			);
 			name = states;
 			path = flux/states;
@@ -156,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				9F6F917B1F08FC8600F27DC9 /* AppReducer.swift */,
+				9F6166C21F09249C008C57CC /* ChartsReducer.swift */,
 			);
 			name = reducers;
 			path = flux/reducers;
@@ -193,6 +231,14 @@
 				9F6F91781F08FAE800F27DC9 /* ViewController.swift */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		9F6F917F1F0903C300F27DC9 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F91801F0903D700F27DC9 /* API.swift */,
+			);
+			name = network;
 			sourceTree = "<group>";
 		};
 		B10748D5703FCD9C435E617A /* Frameworks */ = {
@@ -301,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6E3D191F069B820069E11F /* Assets.xcassets in Resources */,
+				9F1D05C21F092A6E007AA01C /* conf.plist in Resources */,
 				9F6E3D1C1F069B820069E11F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,10 +414,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6166BC1F092214008C57CC /* Charts.swift in Sources */,
+				9F6166C11F0923CE008C57CC /* Chart.swift in Sources */,
 				9F6F914F1F08F94C00F27DC9 /* MainController.swift in Sources */,
+				9F6166C51F0924EA008C57CC /* ChartsRequests.swift in Sources */,
+				9F6166C81F09259A008C57CC /* ViewController.swift in Sources */,
+				9F6166C71F092507008C57CC /* ChartsActions.swift in Sources */,
 				9F6E3D151F069B820069E11F /* AppDelegate.swift in Sources */,
 				9F6F917C1F08FC8600F27DC9 /* AppReducer.swift in Sources */,
+				9F6166C31F09249C008C57CC /* ChartsReducer.swift in Sources */,
 				9F6F917A1F08FB1A00F27DC9 /* State.swift in Sources */,
+				9F6F91811F0903D700F27DC9 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +564,6 @@
 			baseConfigurationReference = E0AC8354442DA9541175B6D4 /* Pods-Musix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Musix/Musix.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -529,7 +582,6 @@
 			baseConfigurationReference = F3793D8BD82A4298A98A52B6 /* Pods-Musix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Musix/Musix.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -619,6 +671,7 @@
 				9F6F916E1F08F9DC00F27DC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
