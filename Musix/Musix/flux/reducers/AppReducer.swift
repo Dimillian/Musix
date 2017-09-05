@@ -9,6 +9,7 @@
 import ReSwift
 
 func AppReducer(action: Action, state: AppState?) -> AppState {
-    return AppState(chartsState: chartsReducer(state: state?.chartsState, action: action))
+    return AppState(chartsState: chartsReducer(state: state?.chartsState, action: action),
+                    searchState: searchReducer(state: state?.searchState, action: action))
 }
 

@@ -11,5 +11,6 @@ import ReSwift
 
 struct AppState: StateType {
     var chartsState: ChartsState
+    var searchState: SearchState
 }
 

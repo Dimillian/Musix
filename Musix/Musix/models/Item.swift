@@ -14,6 +14,7 @@ class Item: Codable {
 
 class Attributes: Codable {
     var artistName: String!
+    var name: String!
     var artwork: Artwork!
 }
 

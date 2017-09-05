@@ -18,6 +18,10 @@ open class ClearCollectionView: NSCollectionView {
         return true
     }
 
+    open override var isFirstResponder: Bool {
+        return true
+    }
+
     open override func awakeFromNib() {
         super.awakeFromNib()
 
